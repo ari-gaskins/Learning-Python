@@ -49,3 +49,7 @@ for key, value in x.items():
 # OR
 for key in x:
     print(key, x[key])
+
+# if you want to access a value given a key, use the get() method 
+# prints 5
+print(x.get('key2'))

@@ -57,3 +57,13 @@ print(hello.lower().count('ll'))
 hello = 'hello'
 # prints 5 because there are 5 letters in the string
 print(len(hello))
+
+# you can also check if a string contains alphabet characters, numeric characters or both
+hello = 'Hello 1'
+
+# prints true for all
+print(hello.isalpha())
+
+print(hello.isnumeric())
+
+print(hello.isalnum())
